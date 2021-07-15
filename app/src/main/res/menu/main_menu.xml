@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_add_note"
+            android:title="Add Note"
+            android:icon="@drawable/ic_add_outline"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="100"/>
+
+        <item
+            android:id="@+id/menu_add_image"
+            android:title="Add Image"
+            android:icon="@drawable/ic_image"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="200"/>
+
+        <item
+            android:id="@+id/menu_add_url"
+            android:title="Add URL"
+            android:icon="@drawable/ic_web_link"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="400"/>
+
+        <item
+            android:id="@+id/menu_share_noted"
+            android:icon="@drawable/ic_menu_share"
+            android:iconTint="@color/colorPrimaryDark"
+            android:orderInCategory="800"
+            android:title="Share NOTED" />
+
+
+    </group>
+
+</menu>

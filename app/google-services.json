@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "92556232718",
+    "project_id": "note-app-dfab1",
+    "storage_bucket": "note-app-dfab1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92556232718:android:59822862ad8a768485545f",
+        "android_client_info": {
+          "package_name": "com.myphuoc.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92556232718-f3mup6427f7c170mbuha2n614d9prfig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myphuoc.noteapp",
+            "certificate_hash": "2baba6fa9cbeb53b4b9b4ddaa48c2e3fade44ade"
+          }
+        },
+        {
+          "client_id": "92556232718-m7uq2i44kq5ip45chqobvqd0ml3m125m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-_qNC_lRHI-6oPSI6LDoiZ-q06RlXCfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92556232718-m7uq2i44kq5ip45chqobvqd0ml3m125m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

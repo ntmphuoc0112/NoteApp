@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:padding="16dp"
+    android:gravity="bottom">
+
+    <ImageView
+        android:id="@+id/iv_name"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/_100sdp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/man_12">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:paddingTop="@dimen/_2sdp"
+        android:text="Username"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:text="phuoc@gmail.com"
+        android:textColor="#000000"
+        android:textSize="@dimen/_14ssp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Sign out">
+
+    </Button>
+
+</LinearLayout>
